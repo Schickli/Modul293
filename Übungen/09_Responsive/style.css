@@ -1,7 +1,36 @@
 .grid-container{
     display: grid; 
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: auto auto auto;
     grid-gap: 5%;
+    width: 100%;
+    padding: 2%;
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+
+ .nav{
+    font-size: 25px;
+    background-color: #7a1818;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    padding-top: 10%;
+    
+} 
+
+.link{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.nav img{
+    width: 50px;
+    height: 100%;
 }
 
 .item{
@@ -9,7 +38,8 @@
     /* height: 100px; */
     border: black solid 2px;
     border-radius: 20px;
-    padding: 15px;
+    padding: 15%;
+    /* width: 100px; */
 }
 
 img{
@@ -24,7 +54,7 @@ button{
     border-radius: 10px;
     color: white;
     margin-top: 7%;
-    height: 50px;
+    /* height: 50px; */
     
 }
 
